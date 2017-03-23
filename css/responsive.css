@@ -1,0 +1,349 @@
+/*!
+ * Bootstrap Responsive v2.3.1
+ *
+ * Copyright 2012 Twitter, Inc
+ * Licensed under the Apache License v2.0
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Designed and built with all the love in the world @twitter by @mdo and @fat.
+ */
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.clearfix:after {
+  clear: both;
+}
+
+@media only screen and (min-device-width: 1300px) and (max-device-width: 1920px) {
+
+}
+
+
+@media (max-width: 1200px) {
+  
+
+
+
+
+	
+}
+@media (max-width: 1024px) {
+
+
+	
+
+}
+
+
+
+@media (max-width: 991px) {
+
+.tax-product_cat .produc-content > p {
+    height: 172px;
+    overflow: hidden;
+}
+
+
+
+
+
+	
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+.row.row-equal-columns {
+    display: block;
+    background: #fff;
+}
+
+.row.row-equal-columns .col-md-6 {
+    float: left;
+    width: 50%;
+}
+
+.product-content {
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    display: block;
+    padding: 5%;
+}
+
+
+
+
+}
+
+@media (min-width: 992px) and (max-width: 1024px) {
+.product-image img {
+    margin: 0 auto;
+    width: 70%;
+}
+
+.produc-content > p {
+    height: 230px;
+    overflow: hidden;
+
+}
+
+}
+@media (min-width: 768px) and (max-width: 991px) {
+
+.logo a {
+    padding: 5px 15px;
+}
+.fixed-contact {
+    padding: 40px 20px;
+}
+
+.contact-address p, .contact-address p a {
+    font-size: 15px;
+}
+    
+
+
+.menu a, .message a, .add-cart a, .wishlist a {
+	padding: 0;
+	}
+    
+.footer .row .col-xs-6 {
+    width: 100%;
+}
+
+.menu-footer-menu-container {
+    text-align: center;
+}
+    
+.paypal {
+    text-align: center;
+}
+.paypal ul {
+	float: none;
+	}
+.paypal li {
+    display: inline-block;
+    float: none;
+    vertical-align: middle;
+}
+
+.warent-content p {
+    font-size: 11px;
+}
+.tax-product_cat .inner-warrenty-section .col-sm-3 {
+	width: 50%;
+	}
+.tax-product_cat .inner-warrenty-section .warrenty-container {
+    margin-bottom: 20px;
+    min-height: 93px;
+}
+    
+.about-section {
+    background-position: 10% 50%;
+}
+
+}
+@media (min-width: 481px) and (max-width: 767px) {
+
+.add-cart .number {
+    
+    top: 22%;
+}
+.menu a, .message a, .add-cart a {
+    padding: 25% 0;
+}
+}
+
+
+@media (max-width: 767px) {
+.warrenty-container {
+	margin-bottom: 20px;
+	}
+.logo a {
+	padding: 10px;
+	}
+.logo img {
+    margin: 0 auto;
+}
+
+.footer .container-fluid .col-xs-6 {
+    width: 100%;
+}
+
+.fixed-contact {
+	margin: 0;
+	}
+.nav-form {
+    margin-right: 0;
+    max-width: 100%;
+    padding: 40px;
+    margin-top: 0;
+    margin-bottom: 80px;
+}
+.panel {
+	width:100%;
+	}
+.nice-select {
+    line-height: 76px;
+    min-height: 76px;
+}
+
+.header {
+    position: static !important;
+}
+
+.single-page-content {
+    padding-top: 0;
+}
+.menu a, .message a, .add-cart a,
+.wishlist a {
+	line-height: 74px;
+    min-height: 75px;
+	padding: 0;
+	}
+.language .nice-select {
+    line-height: 75px;
+    min-height: 75px;
+}
+
+#show-hide {
+	border-bottom: 1px solid #ddd;
+    left: 0;
+    max-width: 100%;
+}
+    
+    .flex-nav-next .flex-next::before, 
+.flex-direction-nav a.flex-next::before,
+.flex-nav-prev .flex-prev::before {
+	font-size: 20px;
+	}
+    
+.row.row-equal-columns {
+    display: block;
+}
+    
+.product-content {
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    display: block;
+    padding: 5%;
+}
+.panel {
+    max-height: 100%;
+    height: 100%;
+    overflow-y: auto;
+    width: 100%;
+}  
+.cart-items {
+    margin-bottom: 30px;
+}
+
+.about-section {
+    background: none;
+  
+}
+    
+
+ .header-nav {
+    margin-bottom: 30px;
+}  
+    
+#panel-3.panel {
+    
+    max-height: 400px;
+}
+
+.wishlist-panel{
+    display: block;
+
+}
+.tax-product_cat .warrenty-section {
+    display: none;
+}
+
+}
+
+
+	
+
+
+@media (max-width: 480px){
+.paypal.clearfix li:first-child {
+    display: block;
+    width: 100%;
+}
+.paypal li {
+    display: inline-block;
+    margin-right: -2px;
+    width: 24%;
+}
+
+
+.nice-select::after {
+	right: 5px;
+	}
+    
+.caption {
+    bottom: 0;
+	padding: 15px;
+}
+.caption h2 {
+    font-size: 80%;
+	margin-bottom: 5px;
+}
+.caption p {
+    font-size: 75%;
+	line-height: 13px;
+}
+    
+    
+.page-template-checkout-page .woocommerce form.woocommerce-checkout .payment_box p.form-row {
+    width: 100%;
+}
+    
+.woocommerce-checkout #customer_details #payment .about_paypal {
+    display: block;
+    float: none;
+}
+
+
+}
+
+
+@media (max-width: 320px) {
+    
+.woocommerce-checkout #payment .payment_method_Striper input {
+ margin-right: 0 !important;
+    }
+
+.woocommerce-checkout #payment .payment_method_Striper label {
+ font-size: 12px;
+ }
+
+    .add-cart .number {
+        top: 26%;
+        width: 20px;
+        height: 20px;
+    }
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+	

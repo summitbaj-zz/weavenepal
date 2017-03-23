@@ -1,0 +1,424 @@
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.header .container {
+    padding: 0;
+}
+
+.manufacturing-section h2 {
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 34px;
+}
+
+.about-section::after {
+    background: #03a9f4;
+}
+.about-section::before {
+    background: #f1f1f1;
+    content: "";
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 50%;
+}
+
+.about-my-feels h3,
+.about-my-feels p {
+    color: #fff;
+}
+
+#home-testimonial {
+    background: none;
+}
+.testimonial-content {
+    padding: 20px;
+}
+
+#home-testimonial .flex-control-nav {
+    bottom: 0;
+
+}
+
+.buyer-rating a {
+    color: #039be5;
+    display: inline-block;
+    margin-right: 2px;
+}
+
+.flex-control-paging li a.flex-active,
+.flex-control-paging li a:hover {
+    background: #039be5 none repeat scroll 0 0;
+}
+.flex-control-paging li a {
+    border-radius: 0;
+    box-shadow: none;
+
+}
+.view-all-reviews {
+    background-color: #039be5;
+    float: right;
+    margin-top: 13px;
+    height: 32px;
+    width: 108px;
+    text-align: center;
+    letter-spacing: 1.2px;
+}
+
+.user {
+    background: #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    height: 80px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 1px;
+    width: 80px;
+}
+
+#home-testimonial .user img {
+    border-radius: 50%;
+    height: 79px;
+    object-fit: cover;
+    width: 79px;
+}
+
+#home-testimonial .name {
+    margin-top: 15px;
+}
+.testimonial-content p {
+    font-size: 13px;
+}
+
+.featured-felt-rugs .effect-oscar a {
+    background: red;
+    border: 1px solid #c0392b;
+    color: #fff;
+    font-size: 13px;
+    padding: 6px 13px;
+}
+
+.featured-felt-rugs .product-image:hover {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.featured-felt-rugs .no-padding {
+    /*padding: 1px;*/
+}
+
+.featured-felt-rugs {
+    background: #fff;
+    border-top: 1px solid #eee;
+    padding: 40px 0;
+}
+
+.featured-title h3,
+.about-title h3,
+.mission-title h3 {
+    margin-top: 0;
+    margin-bottom: 30px;
+    text-transform: capitalize;
+    color: #424242;
+}
+.protection {
+    position: relative;
+}
+.protection::before {
+    background-color: #03a9f4;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 50%;
+    z-index: -1;
+}
+.protection::after {
+    background-color: #f1f1f1;
+    content: "";
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 50%;
+    z-index: -1;
+}
+
+.buyer-review h3 {
+    margin-bottom: 23px;
+    margin-top: 30px;
+    text-transform: capitalize;
+}
+
+
+/* about page */
+
+.bredcum-in {
+    background: #1aa1f3;
+}
+
+.bredcum-in li {
+    display: inline-block;
+    padding-right: 10px;
+    position: relative;
+}
+
+.bredcum-in li::after {
+    color: #fff;
+    content: "/";
+    position: absolute;
+    right: 0;
+    top: 25%;
+}
+.bredcum-in li:last-child:after {
+    display: none;
+}
+.bredcum-in a {
+    color: #fff;
+    display: block;
+    line-height: 40px;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+.bredcum-in a:hover {
+    color: #ccc;
+}
+.bredcum-in li:last-child a {
+    pointer-events: none;
+}
+
+.about-page-content,
+.mission-page-content {
+    background: #f5f5f5;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 40px 0;
+}
+
+.about-content p,
+.mission-content p {
+    font-size: 13px;
+}
+.mission-page-content {
+    background-color: #fff;
+}
+
+.about-owner {
+    background: #f1f1f1;
+    padding: 40px 0;
+}
+
+.about-owner-content > p {
+    font-size: 13px;
+}
+.about-owner-content h4 {
+    color: #666;
+    font-weight: 600;
+    margin-top: 0;
+    text-transform: capitalize;
+}
+
+.about-owner-content {
+    margin-bottom: 30px;
+}
+.owner-image img {
+    width: 100%;
+}
+/*.inner-wrapper{
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+}*/
+.product-image {
+    position: relative;
+}
+.product-image figure figcaption.product-caption {
+    position: static;
+    text-align: center;
+}
+.featured-felt-rugs .product-image {
+    border-left: 1px solid rgba(0, 0, 0, 0.05);
+    /*box-shadow: 0 0 1px rgba(0, 0, 0, 0.08);*/
+    padding: 20px 10px;
+}
+.product-image figure figcaption.product-caption .add-to-wishlist a {
+    color: #cf2027;
+    font-size: 18px;
+}
+
+.ribbion {
+    background-color: #e74c3c;
+    color: #fff;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 400;
+    left: -15px;
+    padding: 5px 20px;
+    position: absolute;
+    text-align: center;
+    text-transform: capitalize;
+    top: 0;
+    z-index: 10;
+}
+
+
+.ribbion::before {
+    border-color: #c0392b #c0392b transparent transparent;
+    border-style: solid;
+    border-width: 7px;
+    bottom: -4px;
+    content: " ";
+    display: block;
+    left: 0;
+    margin-bottom: -10px;
+    position: absolute;
+    z-index: -1;
+}
+.ribbion.offer {
+    background-color: #3498db;
+}
+.ribbion.offer:before {
+  border-color: #2980b9 #2980b9 transparent transparent;  
+}
+.ribbion.new {
+    background-color: #2ecc71;
+}
+.ribbion.new:before {
+border-color: #27ae60 #27ae60 transparent transparent;
+}
+
+.product-image figure figcaption.product-caption .add-to-wishlist {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.product-image figure figcaption.product-caption .product-title h4 a {
+    background: none;
+}
+
+.wrap-in {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 30px;
+    text-align: center;
+}
+
+.reason-to-buy {
+    text-align: left;
+}
+
+.reason-to-buy li {
+    font-size: 13px;
+    line-height: 23px;
+    list-style: disc;
+    margin-bottom: 20px;
+}
+
+.abt-shop-now {
+    background-color: #1aa1f3;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.abt-shop-now a {
+    color: #fff;
+    display: inline-block;
+    padding: 26px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+
+.manufacturing-section {
+    background-color: #f7f7f7;
+    padding: 40px 0;
+}
+
+.designing-box {
+    background-color: #fff;
+    border: 1px solid #eee;
+    min-height: 200px;
+}
+
+.design-section h3 {
+    color: #212121;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+/*.shop-by-products .products img {
+    width: 100%;
+}*/
+
+.shop-by-products {
+    background-color: #fff;
+    padding: 40px 0;
+}
+
+.shop-by-title > h3 {
+    color: #212121;
+    font-weight: 300;
+    margin-top: 0;
+    text-align: left;
+    text-transform: capitalize;
+}
+
+.sort-products {
+    border: 1px solid #f9f9f9;
+    border-radius: 2px;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.sort-products h4 a{
+    color: #444;
+    font-weight: 300;
+    text-transform: capitalize;
+}
+
+.button-one {
+    display: inline-block;
+    margin-right: 13px;
+    background: #cf2027;
+    font-size: 17px;
+    color: #fff;
+    padding: 6px 11px;
+}
+
+.manufacturing-detail > h3 {
+    margin-top: 0;
+    text-transform: capitalize;
+    display: inline;
+}
+
+.manufacturing-detail p {
+    color: #545454;
+    font-size: 13px;
+}
+
+.manufacturing-section2 {
+    background: #fff none repeat scroll 0 0;
+    border-bottom: 1px solid #eee;
+    border-top: 1px solid #eee;
+}
+
+.manufacturing-section3 {
+    background-color: #f1f1f1;
+}
+
+.manufacturing-section .owl-theme .owl-controls .owl-buttons div {
+    position: absolute;
+    top: 50%;
+}
+.manufacturing-section .owl-theme .owl-controls .owl-buttons div.owl-prev {
+    left: 0;
+}
+.manufacturing-section .owl-theme .owl-controls .owl-buttons div.owl-next {
+    right: 0;
+}
