@@ -7,13 +7,6 @@
 .header .container {
     padding: 0;
 }
-
-.manufacturing-section h2 {
-    text-align: center;
-    padding-top: 0px;
-    padding-bottom: 34px;
-}
-
 .about-section::after {
     background: #03a9f4;
 }
@@ -30,6 +23,10 @@
 .about-my-feels h3,
 .about-my-feels p {
     color: #fff;
+}
+
+#item-wrapper li {
+    width: 16.6667%;
 }
 
 #home-testimonial {
@@ -62,11 +59,10 @@
 .view-all-reviews {
     background-color: #039be5;
     float: right;
-    margin-top: 13px;
-    height: 32px;
-    width: 108px;
-    text-align: center;
-    letter-spacing: 1.2px;
+    margin-top: 0;
+}
+.view-all-reviews{
+    
 }
 
 .user {
@@ -321,14 +317,12 @@ border-color: #27ae60 #27ae60 transparent transparent;
 
 .abt-shop-now {
     background-color: #1aa1f3;
-    font-size: 20px;
-    font-weight: 600;
 }
 
 .abt-shop-now a {
     color: #fff;
     display: inline-block;
-    padding: 26px;
+    padding: 10px;
     text-decoration: none;
     text-transform: uppercase;
 }
@@ -382,19 +376,9 @@ border-color: #27ae60 #27ae60 transparent transparent;
     text-transform: capitalize;
 }
 
-.button-one {
-    display: inline-block;
-    margin-right: 13px;
-    background: #cf2027;
-    font-size: 17px;
-    color: #fff;
-    padding: 6px 11px;
-}
-
 .manufacturing-detail > h3 {
     margin-top: 0;
     text-transform: capitalize;
-    display: inline;
 }
 
 .manufacturing-detail p {

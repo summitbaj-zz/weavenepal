@@ -70,14 +70,14 @@
                             <a id="item-3" data-panel="panel-3"><i class="fa fa-shopping-basket" aria-hidden="true"></i></a>
                         </div>
                     </li>
-                    <!--<li>
+                    <li>
                     	<div class="language">
                             <select>
                                 <option>DK</option>
                                 <option>EN</option>
                             </select>
                         </div>
-                    </li>-->
+                    </li>
                     <li>
                     	<div class="currency language">
                             <select>

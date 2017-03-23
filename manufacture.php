@@ -48,7 +48,6 @@
 </div>
 <!-- manufacturing section -->
 <div class="manufacturing-section">
-   <h2>How felt ball rugs are manufactured </h2>
     <div class="container">
         <div class="row">
             <div class="col-sm-6">
@@ -77,7 +76,6 @@
             </div>
             <div class="col-sm-6">
                 <div class="manufacturing-detail">
-                    <div class="button-one"><span>1</span></div>
                     <h3>product title</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -128,7 +126,6 @@
             </div>
             <div class="col-sm-6">
                 <div class="manufacturing-detail">
-                   <div class="button-one"><span>2</span></div>
                     <h3>product title</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -179,7 +176,6 @@
             </div>
             <div class="col-sm-6">
                 <div class="manufacturing-detail">
-                   <div class="button-one"><span>3</span></div>
                     <h3>product title</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
